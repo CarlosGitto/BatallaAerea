@@ -810,7 +810,7 @@ bool calcularSiASFueActivado()
 {
     // Funcion encargada de calcular si se activo un AS, la posibilidad es de 1 entre 6
     int numeroDeLaSuerte = lanzarDados();
-    if (numeroDeLaSuerte == 1 || numeroDeLaSuerte == 2)
+    if (numeroDeLaSuerte == 1)
     {
         return true;
     }
